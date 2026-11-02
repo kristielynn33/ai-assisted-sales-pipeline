@@ -1,0 +1,9 @@
+pandas
+pydantic>=2,<3
+langgraph
+langchain-core
+python-dotenv
+pytest
+google-genai
+duckdb
+dbt-duckdb

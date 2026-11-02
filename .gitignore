@@ -1,0 +1,40 @@
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data, databases, and agent memory
+data/
+memory/
+*.duckdb
+*.duckdb.wal
+
+# Generated dbt files
+target/
+dbt_packages/
+.dbt/
+.user.yml
+
+# Logs, including installation diagnostics
+logs/
+*.log
+
+# Local Tableau workbooks and extracts
+*.twb
+*.twbx
+*.hyper
+*.tde
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini

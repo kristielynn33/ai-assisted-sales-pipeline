@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "One row per input sales record, without aggregation."
+
+    columns:
+      - name: sale_date
+        description: "The date associated with the sales record."
+        data_tests:
+          - not_null
+
+      - name: region
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - North
+                  - South
+                  - East
+                  - West
+                  - Central
+
+      - name: product_category
+        data_tests:
+          - not_null
+
+      - name: revenue
+        data_tests:
+          - not_null
+
+      - name: units_sold
+        data_tests:
+          - not_null
+
+      - name: customer_segment
+        data_tests:
+          - not_null

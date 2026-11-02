@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: fct_monthly_metrics
+    description: >
+      Monthly sales totals at the grain of month, region,
+      product category, and customer segment.
+
+    columns:
+      - name: metric_month
+        description: "The first day of the reporting month."
+        data_tests:
+          - not_null
+
+      - name: region
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - North
+                  - South
+                  - East
+                  - West
+                  - Central
+
+      - name: product_category
+        data_tests:
+          - not_null
+
+      - name: customer_segment
+        data_tests:
+          - not_null
+
+      - name: revenue
+        description: "Total revenue for this reporting group."
+        data_tests:
+          - not_null
+
+      - name: units_sold
+        description: "Total units for this reporting group."
+        data_tests:
+          - not_null
+
+      - name: source_record_count
+        description: "Number of input records in this reporting group."
+        data_tests:
+          - not_null

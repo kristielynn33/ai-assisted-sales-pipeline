@@ -1,0 +1,9 @@
+swarm:
+  target: dev
+
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('SWARM_DB_PATH') }}"
+      schema: main
+      threads: 1

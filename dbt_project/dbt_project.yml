@@ -1,0 +1,14 @@
+name: "swarm_mart"
+version: "1.0.0"
+config-version: 2
+
+profile: "swarm"
+
+model-paths: ["models"]
+
+models:
+  swarm_mart:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

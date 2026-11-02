@@ -1,0 +1,4 @@
+date,region,product_category,revenue,units_sold,customer_segment
+2024-01-15,North,Electronics,1250.50,45,Enterprise
+2024-01-20,South,Software,3400.00,12,SMB
+2024-02-05,East,Hardware,2800.75,30,Enterprise
