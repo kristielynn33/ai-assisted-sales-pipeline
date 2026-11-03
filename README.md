@@ -501,5 +501,12 @@ Total: $4,650.50
 6. Review the proposed plan and approve it.
 7. Show the reconciled database answer.
 
-Describe the project as a supervised, AI-assisted analytics pipeline
-with validated outputs and restricted natural-language querying.
+## Audio walkthrough
+
+[Download the project narration (WAV)](docs/demo/narration.wav)
+
+This audio overview uses a Windows synthetic voice. It describes the
+working pipeline, validation checks, Tableau reporting, and supervised
+question-answering features.
+
+This is narration only, not a screen-recorded demonstration.
