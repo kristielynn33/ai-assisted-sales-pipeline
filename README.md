@@ -513,4 +513,4 @@ This is narration only, not a screen-recorded demonstration.
 
 ## Tableau screenshot
 
-![Uploading Screenshot 2026-11-02 131153.png…]()
+<img width="335" height="783" alt="image" src="https://github.com/user-attachments/assets/712ce1b0-ea93-403e-9c68-49f1e24aa809" />
