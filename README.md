@@ -510,3 +510,7 @@ working pipeline, validation checks, Tableau reporting, and supervised
 question-answering features.
 
 This is narration only, not a screen-recorded demonstration.
+
+## Tableau screenshot
+
+![Uploading Screenshot 2026-11-02 131153.png…]()
